@@ -1,0 +1,5 @@
+Background...Off-White......#fffff5
+Body.........Light-Black....#343a40
+Theme........Green..........#00af66
+Accent 1.....Darker-Green...#007a5a
+Accent 2.....Dark-Green.....#159763
