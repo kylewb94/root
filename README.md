@@ -23,7 +23,7 @@ Custom eCommerce application built with the MERN stack with the following functi
 * **Mongo DB and Mongoose ODM**
 * **JWT authentication**
 * **PayPal API**
-* **Heroku deployment**
+* **Render deployment**
 
 ## Usage
 
