@@ -23,7 +23,7 @@ import {
 	PRODUCT_TOP_FAIL
 } from '../constants/productConstants'
 
-export const listProducts = (keyword = '', pageNumber= '') => async (dispatch) => {
+export const listProducts = (keyword = '', pageNumber = '') => async (dispatch) => {
 	try {
 		dispatch({ type: PRODUCT_LIST_REQUEST })
 

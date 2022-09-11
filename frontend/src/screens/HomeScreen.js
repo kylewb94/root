@@ -14,7 +14,7 @@ const HomeScreen = ({ match }) => {
 	const keyword = match.params.keyword
 
 	const pageNumber = match.params.pageNumber || 1
-	
+
 	const dispatch = useDispatch()
 
 	const productList = useSelector((state) => state.productList)
@@ -36,7 +36,7 @@ const HomeScreen = ({ match }) => {
 				<Loader />
 			) : error ? (
 				<Message variant='danger'>{error}</Message>
-			) : ( 
+			) : (
 				<>
 					<Row>
 						{products.map(product => (
